@@ -1,0 +1,57 @@
+[
+  {
+    "title": "The Folding-Chair Situation",
+    "cargo": "24 folding chairs, 23 of which fold",
+    "destination": "Centennial Park street-side handover",
+    "point": [
+      -5067.08,
+      -39.4
+    ],
+    "pay": 180,
+    "joke": "The twenty-fourth chair is now a sculpture."
+  },
+  {
+    "title": "A Very Portable Picnic",
+    "cargo": "Picnic supplies and an unreasonable quantity of napkins",
+    "destination": "Point Edward Waterfront street-side handover",
+    "point": [
+      -5989.379904897774,
+      -1714.1229367154824
+    ],
+    "pay": 210,
+    "joke": "The napkins have their own committee."
+  },
+  {
+    "title": "The Lawn-Bowling Engineering Department",
+    "cargo": "A crate of fictional club equipment",
+    "destination": "Germain Park street-side handover",
+    "point": [
+      -2983.8210074210274,
+      957.5815157568255
+    ],
+    "pay": 175,
+    "joke": "Nobody agreed on which end of the level was up."
+  },
+  {
+    "title": "Advanced Duct Tape Studies",
+    "cargo": "Workshop supplies for a fictional student project",
+    "destination": "Lambton College street-side handover",
+    "point": [
+      55.26722250430816,
+      1154.0553993292015
+    ],
+    "pay": 260,
+    "joke": "It is a prototype. That explains the smoke."
+  },
+  {
+    "title": "The Beach Umbrella Committee",
+    "cargo": "Beach umbrellas for a fictional volunteer group",
+    "destination": "Canatara Park street-side handover",
+    "point": [
+      -4691.70090481398,
+      -2314.6497523884136
+    ],
+    "pay": 230,
+    "joke": "They voted to postpone the wind."
+  }
+]

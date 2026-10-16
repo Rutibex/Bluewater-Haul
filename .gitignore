@@ -1,0 +1,36 @@
+# Local builds and IDE state
+**/bin/
+**/obj/
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Generated executable / publishing / test captures
+Windows/
+publish/
+dist/
+artifacts/
+verification/
+**/verification/
+*.pdb
+*.dll
+*.exe
+*.deps.json
+*.runtimeconfig.json
+
+# Python helper cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Don't ignore Source/Data/world.json: the checked-in ODbL world is required to play.

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Canatara Park",
+    "point": [
+      -4666.14462962963,
+      -2321.0275925925926
+    ],
+    "note": "Lake Huron beach, trails, pavilions, animal farm and miniature train. This prototype preserves mapped park geometry; attractions are research notes, not all modelled yet.",
+    "source": "https://www.sarnia.ca/play/parks-and-trails/",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Centennial Park",
+    "point": [
+      -4960.619402985075,
+      16.792537313432838
+    ],
+    "note": "Sarnia Bay waterfront park with gardens, walking paths, the Agora and marina access. Delivery handover is on a nearby street, not a licence to drive trucks onto park lawns.",
+    "source": "https://www.sarnia.ca/play/parks-and-trails/",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Point Edward Waterfront",
+    "point": [
+      -5979.795319148936,
+      -1667.8176595744683
+    ],
+    "note": "Point Edward is a separate village. Its waterfront looks across the St. Clair River toward Port Huron and up at the Blue Water Bridge. Shipping and bridge traffic shape the setting.",
+    "source": "https://www.villageofpointedward.com/community-services/parks",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Blue Water Bridge",
+    "point": [
+      -5895.200645161291,
+      -1645.0993548387098
+    ],
+    "note": "The north span has a cantilever truss; its south twin uses an arch structure. Both follow the supplied road alignments. Bridge elevations, dimensions and approach slopes are generated; the international crossing remains outside this prototype.",
+    "source": "https://www.villageofpointedward.com/living-point-edward/history",
+    "accuracy": "OSM road alignment; generated structure"
+  },
+  {
+    "name": "Sarnia City Hall",
+    "point": [
+      -4961.14,
+      864.24
+    ],
+    "note": "Municipal landmark at 255 Christina Street North. Mapped footprint and position; generated exterior and interior.",
+    "source": "https://www.sarnia.ca/public-notices/notice-of-adoption-of-a-new-official-plan/",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Sarnia Library",
+    "point": [
+      -5001.06,
+      1410.42
+    ],
+    "note": "Mapped downtown library at 124 Christina Street South. The library is part of the downtown cultural cluster. Generated rooms are not its real floor plan.",
+    "source": "https://www.sarnia.ca/app/uploads/2022/10/Sarnia-Official-Plan-2014-as-Amended-July-2022.pdf",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Lawrence House",
+    "point": [
+      -5095.26,
+      1407.629
+    ],
+    "note": "127 Christina Street South: Queen Anne arts venue. Tower, bay and chimney cues follow municipal heritage research. OSM footprint 1526503538 is an inferred match from the documented corner; exterior proportions are stylized.",
+    "source": "https://lawrencehouse.ca/history-2/",
+    "accuracy": "Inferred corner/footprint match"
+  },
+  {
+    "name": "Germain Park",
+    "point": [
+      -3018.224666666667,
+      787.1883333333334
+    ],
+    "note": "Recreation grounds with sports facilities, gardens, walking trails and the Golden Hawk memorial. The footprint is mapped; detailed attractions remain future work.",
+    "source": "https://www.sarnia.ca/play/parks-and-trails/",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Lambton College",
+    "point": [
+      55.48,
+      1134.43
+    ],
+    "note": "1457 London Road. College and London Road corridor provide a distinct eastern destination. The marker is mapped; campus interiors are generated.",
+    "source": "https://www.lambtoncollege.ca/",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Wawanosh Wetlands",
+    "point": [
+      1133.9833333333333,
+      -1547.0746666666666
+    ],
+    "note": "Mapped nature reserve. The nearby Nature Way offers wetland and woodland walking connections; only the paths present in this extract are represented.",
+    "source": "https://www.sarnia.ca/play/parks-and-trails/",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Mitton Village",
+    "point": [
+      -4274.11,
+      1547.15
+    ],
+    "note": "A distinct neighbourhood and commercial area recognized by the City community improvement plan. Fictional local residents and errands can give this district its own social life.",
+    "source": "https://www.sarnia.ca/community-improvement-plan/",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Bluewater Health",
+    "point": [
+      -3683.87,
+      509.2
+    ],
+    "note": "The hospital is mapped as a destination. It has a generated public interior, not an accurate hospital reconstruction; no clinical simulation is implemented.",
+    "source": "https://en.wikipedia.org/wiki/Sarnia",
+    "accuracy": "Mapped OSM feature"
+  },
+  {
+    "name": "Golden Hawk Memorial",
+    "point": [
+      -3102.768,
+      773.674
+    ],
+    "note": "Germain Park F-86 RCAF memorial, with metallic gold and red aircraft colours. Stylized original model; anchor from Veterans Affairs Canada memorial listing, not a new GIS dataset.",
+    "source": "https://www.veterans.gc.ca/en/remembrance/memorials/canada/sarnias-f-86-rcaf-memorial",
+    "accuracy": "Curated official memorial anchor"
+  }
+]

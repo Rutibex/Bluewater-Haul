@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible gameplay, save, rendering or build problem.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Explain actual and expected behaviour.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      placeholder: "1. Start a new game\n2. Open map\n3. ..."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v0.7.0
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: OS, GPU and graphics driver
+      placeholder: Windows 11 / GPU model
+  - type: textarea
+    id: logs
+    attributes:
+      label: Diagnostics and screenshots
+      description: Review crash text and screenshots for personal information before posting.
+      render: text

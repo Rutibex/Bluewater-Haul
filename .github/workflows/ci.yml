@@ -1,0 +1,38 @@
+name: Build and verify
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Build & verify (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install .NET SDK 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Install Python for asset checks
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate bundled data and documentation
+        run: python tests/check_assets.py
+      - name: Restore
+        run: dotnet restore Source/SarniaPrototype.csproj
+      - name: Compile
+        run: dotnet build Source/SarniaPrototype.csproj -c Release --no-restore
+      - name: Run headless game verification
+        run: dotnet run --project Source/SarniaPrototype.csproj -c Release --no-build -- --verify
